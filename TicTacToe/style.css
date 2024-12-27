@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+h1{
+    font-size: 4rem;
+    color: rgba(89, 137, 201, 0.678);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(201, 188, 188);
+    
+}
+.heading{
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+}
+.game-container{
+    display: flex;
+    height: 75%;
+    width: 100%;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+.game{
+    height: 75%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows: 33% 33% 34%;
+    padding-left: 0%;
+    padding-top: 0%;
+    border: 2px solid rgb(255, 252, 252);
+    padding-right: 0%;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    cursor: pointer;
+}
+.one{
+    border-right:0.2rem solid white ;
+    border-bottom: 0.2rem solid rgb(248, 248, 248);
+}
+.two{
+    border-bottom: 0.2rem solid white;
+}
+.three{
+    border-bottom: 0.2rem solid white;
+    border-left:0.2rem solid white ;
+}
+.four{
+    border-right:0.2rem solid white ;
+}
+.six{
+    border-left:0.2rem solid white ;
+}
+.seven{
+    border-top:0.2rem solid white ;
+    border-right:0.2rem solid white ;
+}
+.eight{
+    border-top:0.2rem solid white ;
+}
+.nine{
+    border-top:0.2rem solid white ;
+    border-left:0.2rem solid white ;
+}
+h2{
+    color: white;
+    font-size: 6rem;
+    font-family: Fuzzy Bubbles;
+}
+.xx{
+    display: none;
+}
+.oo{
+    display: none;
+}
+.result{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    color: rgb(218, 0, 0);
+    font-size: 3rem;
+}
